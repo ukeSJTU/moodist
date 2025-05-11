@@ -4,6 +4,8 @@ import react from '@astrojs/react';
 import AstroPWA from '@vite-pwa/astro';
 
 export default defineConfig({
+  site: 'https://ukeSJTU.github.io',
+  base: '/moodist',
   integrations: [
     react(),
     AstroPWA({
